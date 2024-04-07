@@ -10,8 +10,6 @@ URl = 'https://rabota.by/employer/vacancyresponses?vacancyId=34590154'
 
 
 def login_in_account(driver):
-    username = 'vitali.stacklevel@gmail.com'
-    password = '5r4Y6JfU'
     driver.find_element(By.CLASS_NAME, 'bloko-form-item').find_element(By.TAG_NAME, 'input').send_keys(username)
     driver.find_element(By.CLASS_NAME, 'bloko-form-item').find_element(By.XPATH, '//*[@id="HH-React-Root"]/div/div/div[4]/div[1]/div/div/div/div/div/div[1]/div/div/form/div[2]/fieldset/input').send_keys(password)
     driver.find_element(By.CLASS_NAME, 'account-login-actions').find_element(By.TAG_NAME, 'button').click()
