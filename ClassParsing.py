@@ -111,5 +111,3 @@ class ParsingVacancies:
 url = 'https://rabota.by/employer/vacancyresponses?vacancyId=38264095'
 parsing_rabota = ParsingVacancies(url)
 parsing_rabota.parsing()
-
-
